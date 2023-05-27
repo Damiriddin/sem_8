@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-// strend возвращает 1 - если t в конце s и 0 - в противном 
+// strend возвращает 1 - если t в конце s и 0 - в противном случае
 int strend(char *s, char *t) {
     int len_s, len_t; //len_s, len_t -- длина строк s и t соответственно 
     len_s = strlen(s);
